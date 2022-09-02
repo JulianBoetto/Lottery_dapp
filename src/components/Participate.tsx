@@ -8,6 +8,8 @@ const Participate: React.FC = () => {
 
   return !contract ? null : (
     <button
+      type="button"
+      className="btn btn-success"
       onClick={() => {
         contract.methods.enter().send({
           from: web3.account,

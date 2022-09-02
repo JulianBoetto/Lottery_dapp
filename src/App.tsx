@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ConnectWallet from './components/ConnectWallet';
 import Participate from './components/Participate';
