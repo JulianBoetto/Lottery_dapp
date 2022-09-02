@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">                    
-                    <li className="ms-3"><a className="text-muted" href="https://github.com/JulianBoetto" target="_blank"><i className="bi bi-github"></i></a></li>
-                    <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/julianmatiasboetto/" target="_blank"><i className="bi bi-linkedin"></i></a></li>
+                    <li className="ms-3"><a className="text-muted" href="https://github.com/JulianBoetto" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a></li>
+                    <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/julianmatiasboetto/" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a></li>
                 </ul>
             </footer>
         </div>
