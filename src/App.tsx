@@ -1,5 +1,6 @@
 import './App.css';
 import ConnectWallet from './components/ConnectWallet';
+import Footer from './components/Footer';
 import Participate from './components/Participate';
 import Players from './components/Players';
 
@@ -11,6 +12,9 @@ function App() {
         <Participate />
         <Players />
       </header>
+      <footer className="Footer">
+        <Footer />
+      </footer>
     </div>
   );
 }
